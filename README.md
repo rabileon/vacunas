@@ -1,4 +1,4 @@
-# Challenge - Curso de Single Page Application con JavaScript Vanilla 🚀
+# RETO JavaScript Vanilla 🚀
 
 Reto JavaScript Vanilla (PARTE1).
 
@@ -14,7 +14,7 @@ En este reto, lleve a la práctica los temas de:
 
 
 ## Contenido
-Deploy ➡ https://rabileon.github.io/curso-spa/
+Deploy ➡ https://rabileon.github.io/vacunas/
 
 ![Demo](https://i.imgur.com/0mNDSUG.jpg)
 
