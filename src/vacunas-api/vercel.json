@@ -1,0 +1,21 @@
+{
+    "name": "platziVacunas",
+    "version": 2,
+    "builds": [{ "src": "index.js", "use":"@vercel/node"}],
+    "routes": [{"src": "/(.*)", 
+        "dest": "/index.js",
+        "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE'"
+        }
+   }],
+    "env": {
+        "DB_USER": "@v_db_user",
+        "DB_PASSWORD": "@v_db_password",
+        "DB_HOST": "@v_db_host",
+        "DB_NAME": "@v_db_name"
+    }
+
+}
